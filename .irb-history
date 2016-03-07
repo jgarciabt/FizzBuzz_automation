@@ -1,0 +1,4 @@
+start_test_server_in_background
+query('*')
+query("* id:'fizz_buzz_output'", :text).first
+quit
